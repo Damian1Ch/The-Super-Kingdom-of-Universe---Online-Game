@@ -1,0 +1,182 @@
+body {
+    /* Background pattern from subtlepatterns.com */
+	background-image: url("img/gifshort.gif"); 
+	background-color: #000000;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height:auto;
+	padding: 0px;
+	font-family: 'Noticia Text', serif;
+	font-size: 26px;
+	color:  #ffe6e6;
+	text-align: center;
+	margin: 0px;
+}
+
+h1
+{
+	color: #ffcc00;
+}
+
+#container
+{
+	width: 900px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+}
+
+#form
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 488px;
+	padding: 0px 10px;
+	background-image: url("img/blackmamba.png");
+}
+
+#loginform input[type=text],
+#loginform input[type=password]
+{
+	width: 244px;
+	height: 36px;
+	background-repeat: no-repeat;
+    background-position: initial;
+	color: #ffe6e6;
+	border: none;
+	font-size: 16px;
+	box-sizing: border-box;
+	outline: none;
+	float: left;
+	padding: 0px;
+	text-align:center;
+	margin-top: 20px;
+	background: url("img/PolePuste.png");	
+}
+
+#haslo::-webkit-input-placeholder { color:#999999; font-weight:bold;}
+#haslo::-moz-placeholder { color:#999999; font-weight:bold;} /* firefox 19+ */
+#haslo::-ms-input-placeholder { color:#999999; font-weight:bold;} /* ie */
+
+#login::-webkit-input-placeholder { color:#999999; font-weight:bold;}
+#login::-moz-placeholder { color:#999999; font-weight:bold;} /* firefox 19+ */
+#login::-ms-input-placeholder { color:#999999; font-weight:bold;} /* ie */
+
+#logsab input[type=submit]
+{
+	width: 219px;
+	height: 34px;
+	background: url("img/Zaloguj1.png");	
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: initial; 
+	border: none;
+	cursor: pointer;
+	outline: none;
+	margin-top: 0px;
+	padding: 0px;
+	margin-top: 20px;
+}
+
+#logsab input[type=submit]:focus
+{
+	background: url("img/Zaloguj1.png");
+	background-size: cover;
+}
+
+#logsab input[type=submit]:hover
+{
+	background: url("img/Zaloguj2.png");
+	background-size: cover;
+}
+
+#registration
+{
+	background-color: #000000;
+	width: 474px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+#registry
+{
+	width: 351px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#registryform
+{
+	margin-top: 10px;
+}
+
+.information
+{
+	width: 434px;
+	height: 32px;
+	padding: 10px;
+	margin: 0px;
+	border: none;
+}
+
+.information input[type=text],
+.information input[type=password]
+{
+	margin-left: 15px;
+	width: 216px;
+	height: 16px;
+	background-color: #000000;
+	color: #ffe6e6;
+	font-size: 15px;
+	outline: none;
+	padding: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+}
+
+#then input[type=submit]
+{
+	width: 185px;
+	height: 30px;
+	background: #000000 url("img/Rejestruj.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: initial; 
+	border: none;
+	margin-left: 180px;
+	margin-top: 25px;
+	cursor: pointer;
+	outline: none;	
+}
+
+#then input[type=submit]:focus
+{
+	background: #000000 url("img/Rejestruj.png");
+	background-size: cover;
+}
+
+#then input[type=submit]:hover
+{
+	background: #000000 url("img/Rejestruj2.png");
+	background-size: cover;
+}
+
+#footer
+{	
+		font-size: 16px;
+		background-image: url("img/black_paper.png");
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		bottom: 0px;
+		position: relative;
+}

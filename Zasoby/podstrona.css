@@ -1,0 +1,655 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/tlo.png");
+	background-color: #000000;
+	font-family: 'Noticia Text', serif;
+	font-size: 13px;
+	color:  #ffe6e6;
+	margin: 0px;
+}
+
+h1
+{
+	color: #ffcc00;
+}
+
+#container
+{
+	width: 1000px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav
+{
+	margin-top: 40px;
+	width: 250px;
+	float: left;
+	min-height: 1000px;
+}
+
+main
+{
+	float: left;
+	width: 700px;
+	margin-top: 150px;
+	margin-left: 50px;
+	padding-bottom: 70px;
+}
+
+
+.square
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#chapter
+{
+	float: left;
+}
+
+.unit
+{
+	float: left;
+	border: 2px solid #00001a;
+	margin-top: 40px;
+	display: flex;
+}
+
+.ships
+{
+	width: 145px;
+	float: left;
+	background-image: url("img/blackmamba2.png");
+	border: 5px solid #0d1014;
+	padding: 10px;
+	min-height: 180px;
+	display: flex;
+}
+
+.shipimg
+{
+	width:145px;
+	height:178px;
+	margin: auto;
+}
+
+
+.nameship
+{
+	letter-spacing: 5px;
+	font-weight: 700;
+	text-align:center;
+	color: #ffcc00;
+	font-size: 16px;
+	padding-top:10px;
+	padding-bottom:10px;
+	 text-shadow: 4px 4px 4px #000000;
+}
+
+.nib_nameship1
+{
+	letter-spacing: 5px;
+	font-weight: 700;
+	text-align:center;
+	color: #ffcc00;
+	font-size: 16px;
+	padding-top:0px;
+	padding-bottom:10px;
+	text-shadow: 4px 4px 4px #000000;
+}
+
+.nib_nameship2
+{
+	letter-spacing: 5px;
+	font-weight: 700;
+	text-align:center;
+	color: #ffcc00;
+	font-size: 16px;
+	padding-top:0px;
+	text-shadow: 4px 4px 4px #000000;
+	line-height:16px;
+}
+
+.specification
+{
+	background-image: url("img/blackmamba2.png");
+	max-width: 419px;
+	min-height:175px;
+	float: left;
+	text-align: justify;
+	font-family: 'Noticia Text', serif;
+	font-size: 14px;
+	color: #ffcc00;
+	padding: 10px 10px 15px 10px;
+	margin-left: 2px;
+    border: 5px solid  #0d1014;
+	text-shadow: 2px 2px 4px #000000;
+	box-sizing: border-box;
+}
+
+.price
+{
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+.summary
+{
+	width: 58px;
+	min-height: 200px;
+	float: left;
+	background-image: radial-gradient(#002436, #000000);
+	border: 5px solid  #0d1014;
+	margin-left: 2px;
+	display: flex;
+}
+
+.stocznia_number
+{
+	width: 46px;
+	background-color: #000000;
+	height: 45px;
+	border: 5px double  #0f0f0a;
+	margin: auto;
+}
+
+.stocznia_number input[type=text]
+{
+	width: 40px;
+	background: none;
+	height: 39px;
+	border: none;
+	color: #ffe6e6;
+	font-size: 15px;
+	outline: none;
+	margin-left: 4px;
+	margin-top: 2px;
+	text-align: center;
+	
+}
+
+.nib_number
+{
+	width: 55px;
+	background-color: none;
+	height: 53px;
+	margin-top: 70px;
+	background-image: url("img/BudujON.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 2px;
+}
+
+.nib_number input[type=submit]
+{
+	width: 53px;
+	background:none;
+	height: 51px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transform: scale(1,1);
+}
+
+.nib_number:hover
+{
+	transform: scale(1.05,1.05);
+	transition-duration: 250ms;
+	transition-timing-function: ease-out;
+}
+
+
+#then input[type=submit]
+{
+	width: 185px;
+	height: 30px;
+	background: #000000 url("img/Rekrutuj.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: initial; 
+	border: none;
+	margin-left: 500px;
+	margin-top: 40px;
+	cursor: pointer;
+	outline: none;	
+}
+
+#then input[type=submit]:focus
+{
+	background: #000000 url("img/Rekrutuj.png");
+	background-size: cover;
+}
+
+#then input[type=submit]:hover
+{
+	background: #000000 url("img/Rekrutuj2.png");
+	background-size: cover;
+}
+
+#atak input[type=submit]
+{
+	width: 185px;
+	height: 30px;
+	background: #000000 url("img/Atakuj1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: initial; 
+	border: none;
+	cursor: pointer;
+	outline: none;	
+}
+
+#atak input[type=submit]:focus
+{
+	background: #000000 url("img/Atakuj1.png");
+	background-size: cover;
+}
+
+#atak input[type=submit]:hover
+{
+	background: #000000 url("img/Atakuj2.png");
+	background-size: cover;
+}
+
+#atak
+{
+	width: 244px;
+	height: 36px;
+	float:right;
+	margin-top: 1px;
+}
+
+
+#gracz input[type=text]
+
+{
+	width: 244px;
+	height: 36px;
+	background-repeat: no-repeat;
+    background-position: initial;
+	color: #ffe6e6;
+	border: none;
+	font-size: 16px;
+	outline: none;
+	padding: 0px;
+	text-align:center;
+	background: url("img/PolePuste.png");	
+}
+
+#gracz
+
+{
+	width: 244px;
+	height: 36px;
+	float:right;
+	background: url("img/PolePuste.png");
+	background-repeat: no-repeat;
+    background-position: initial;	
+}
+
+#atakuj
+{
+	height: 50px;
+	margin-top: 40px;
+}
+a#gototop 
+{
+   position: fixed;
+   bottom: 40px;
+   right: 20px;
+   padding: 0;
+   width: 36px;
+   height: 44px;
+   background: url(img/gora.png) no-repeat center center;
+}
+
+#footer
+{
+	font-size: 16px;
+	background-image: url("img/black_paper.png");
+	width: 100%;
+	padding: 5px;
+	margin: 0 auto;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+}
+
+#timer
+{
+	background-image: url("img/blackmamba2.png");
+	width: 245px;
+	height: 41px;
+	float:right;
+	border: 2px solid #00001a;
+}
+
+#czar
+{
+	padding:2px;
+	width:29px;
+	height:33px;
+	float:left;
+}
+
+#timer1
+{
+	float:left;	
+	width: 200px;
+	padding:4px;
+	height:29px;
+	text-shadow: 2px 2px 2px #000000;
+	color: white;
+	font-size: 21px;
+	font-family: 'Gugi', cursive;
+	text-align: center;
+}
+
+
+#materialy
+{
+	background:none;
+	width:100%
+}
+
+.sticky
+{
+	position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 0;
+}
+
+#materia
+{
+	background-color: none;
+	width: 1000px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#surowce
+{
+	width:694px;
+	background-color: #000000;
+	float:left;
+	border: 2px solid #0d1014;
+}
+
+.surowiec
+{
+	width:162px;
+	float:left;
+	border: 5px solid #0f0f0a;
+	margin-left: 2px;
+	background-image: url("img/blackmamba2.png");
+}
+
+.surowiec1
+{
+	width:162px;
+	float:left;
+	border: 5px solid #0f0f0a;
+	background-image: url("img/blackmamba2.png");
+}
+
+.surowce1
+{
+		width:29px;
+		padding: 2px;
+		float:left;
+}
+
+.surowce2
+{
+	box-sizing: border-box;
+	float:left;
+	text-shadow: 2px 2px 2px #000000;
+	color: white;
+	font-size: 15px;
+	font-family: 'Gugi', cursive;
+	margin-top: 5px;
+	padding:4px;
+	margin-left:3px;
+}
+	
+.surowce3
+{
+	box-sizing: border-box;
+	float:left;
+	text-shadow: 2px 2px 2px #000000;
+	color: white;
+	font-size: 15px;
+	font-family: 'Gugi', cursive;
+	tekst-align: center;
+	margin-top: 5px;
+	padding:4px;
+}
+
+#rankig_chapter
+{
+	background-image: url("img/blackmamba2.png");
+	width:640px;
+	padding:30px;
+}
+
+table#t01 th, td
+{
+    padding: 7px;
+    text-align: center;
+	font-family: 'Noticia Text', serif;
+	color: #ffcc00;
+	box-sizing: border-box;
+	width: 228px;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table#t01 td
+{
+	font-size: 17px;
+}
+
+table#t01 th
+{
+	font-size: 19px;
+	letter-spacing: 2px;
+	background-image: radial-gradient(#002436, #000000);
+}
+
+table#t01
+{
+	border: 5px solid #0d1014;
+	border-collapse: collapse;
+}
+
+table#t01 tr
+{
+	background-image: radial-gradient(#002436, #000000);
+}
+
+table#t01 tr:hover
+{
+	background-image: radial-gradient(#264554, #000000);
+}
+
+table#t02 td
+{
+	border:none;
+	padding: 7px;
+    text-align: center;
+	font-family: 'Noticia Text', serif;
+	color: #ffcc00;
+	box-sizing: border-box;
+	border:none;
+	font-size: 16px;
+}
+
+table#t02 th
+ {
+	letter-spacing: 16px;
+	border:none;
+	padding:10px;
+    text-align: center;
+	font-family: 'Noticia Text', serif;
+	color: #ffcc00;
+	box-sizing: border-box;
+	border:none;
+	font-size: 16px;
+ }
+ 
+	
+table#t02
+{
+	background:none;
+	border:none;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+
+#ranking
+{
+	padding-bottom: 10px;
+    text-align: center;
+	font-family: 'Noticia Text', serif;
+	font-weight: bold;
+	color: #ffcc00;
+	font-size: 25px;
+	letter-spacing: 8px;
+	tekst-align: center;
+}
+
+#kokpit_chapter
+{
+	background: none;
+	width:900px;
+	box-sizing: border-box;
+	padding: 0px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+#kokpit_chapter1
+{
+	background: none;
+	width:387px;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.kokpit_unit
+{
+	border: 2px solid #00001a;
+	margin-top: 40px;
+	display: flex;
+}
+
+.kokpit_specification
+{
+	background-image: url("img/blackmamba2.png");
+	min-width: 419px;
+	min-height:175px;
+	float: left;
+	text-align: justify;
+	font-family: 'Noticia Text', serif;
+	font-size: 18px;
+	color: #ffcc00;
+	padding: 10px;
+	margin-left: 2px;
+    border: 5px solid  #0d1014;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.kokpit_summary
+{
+	width: 58px;
+	min-height: 200px;
+	float: left;
+	background-image: radial-gradient(#002436, #000000);
+	border: 5px solid  #0d1014;
+	margin-left: 2px;
+	display: flex;
+}
+
+.kokpit_ships
+{
+	width: 145px;
+	float: left;
+	background-image: url("img/blackmamba2.png");
+	border: 5px solid #0d1014;
+	padding: 10px;
+	min-height: 180px;
+	display: flex;
+}
+
+table#t03 th, td
+{
+    padding: 7px;
+    text-align: center;
+	font-family: 'Noticia Text', serif;
+	color: #ffcc00;
+	box-sizing: border-box;
+	width: 228px;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table#t03 td
+{
+	font-size: 17px;
+}
+
+table#t03 th
+{
+	font-size: 18px;
+	letter-spacing: 2px;
+	background-image: radial-gradient(#0d2f40, #000000);
+}
+
+table#t03 tr
+{
+	background-image: radial-gradient(#0d2f40, #000000);
+}
+
+table#t03 tr:hover
+{
+	background-image: radial-gradient(#264554, #000000);
+}
+
+
+table#t03
+{
+	border: 5px solid #0d1014;
+	background-image: none;
+	border-collapse: collapse;
+	box-sizing: border-box;
+}
+
+#uzytkownik
+{
+	width: 244px;
+	height: 36px;
+    float: left;
+	background: url("img/PolePuste.png");	
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	line-height:16px;
+	font-family: 'Gugi', cursive;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	margin-right: 56px;
+	padding: 10px;
+	margin-top: 8px;
+}
